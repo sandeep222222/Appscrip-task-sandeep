@@ -1,0 +1,5 @@
+.secondary-container {
+    padding: 32px 0 48px;
+    display: flex;
+    gap: 16px;
+}

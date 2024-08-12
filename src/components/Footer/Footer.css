@@ -1,0 +1,434 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 79px 64px 25px 128px;
+  }
+  
+  .footer .footer-top {
+    display: flex;
+    gap: 200px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #fff;
+  }
+  
+  /*-------------------Left Section----------------*/
+  
+  .footer-top .left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .footer-heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+  
+  .left-section p,
+  .contact-section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+  
+  .subscribe-form {
+    margin-top: 25px;
+  }
+  
+  .subscribe-form form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .subscribe-form input {
+    width: 384px;
+    height: 47px;
+    padding: 10px 24px;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 400;
+  }
+  
+  .subscribe-form input::placeholder {
+    color: #bfc8cd;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 400;
+    vertical-align: middle;
+  }
+  
+  .subscribe-form button {
+    padding: 13px 47px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+    opacity: 0.3;
+    border-radius: 5px;
+  }
+  
+  .subscribe-form button:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  /* ------------------ Right Section ------------------- */
+  
+  .footer-top .right-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .right-section .contact-section,
+  .right-section .currency-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .currency-section .currency-flag {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  
+  .star {
+    width: 6px;
+    height: 6px;
+  }
+  
+  .currency-flag h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+  }
+  
+  .currency-section p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+  }
+  
+  /* ----------------Footer Bottom ----------------*/
+  
+  .footer-bottom {
+    margin-top: 56px;
+    display: flex;
+    gap: 210px;
+    margin-bottom: 37px;
+  }
+  
+  .footer-bottom .bottom-left {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .bottom-left h1 {
+    font-size: 24.71px;
+    line-height: 29.66px;
+    font-weight: 700;
+  }
+  
+  .footer-bottom li {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+  }
+  
+  .bottom-left ul,
+  .bottom-center ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+  }
+  
+  .footer-bottom .bottom-center {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .bottom-right .follow-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 56px;
+  }
+  
+  .follow-section .social-icon-container {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .social-icon-container .border {
+    width: 33px;
+    height: 33px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bottom-right .accepted-payment-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .accepted-payment-sec h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .accepted-payment-sec .payment-icon {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .footer-copyright {
+    text-align: center;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 400;
+  }
+  
+  .left-sec-show-p {
+    display: none;
+  }
+  
+  .call-us {
+    display: none;
+  }
+  
+  .contact-details > img {
+    display: none;
+  }
+  
+  .accordion-heading {
+    display: none;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  /*---------------------------RESPONSIVE------------------------*/
+  @media only screen and (max-width: 1097px) {
+    .footer .footer-top {
+      gap: 18vw;
+    }
+  
+    .footer {
+      padding: 79px 30px 25px 60px;
+    }
+  
+    .accepted-payment-sec .payment-icon {
+      flex-wrap: wrap;
+    }
+  
+    .subscribe-form form {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+    }
+  
+    .footer-bottom {
+      gap: 80px;
+    }
+  
+    .subscribe-form input {
+      width: 268px;
+      height: 40px;
+    }
+  
+    .footer-bottom li {
+      font-size: 16px;
+    }
+  
+    @media only screen and (max-width: 731px) {
+      .footer .footer-top {
+        flex-direction: column;
+        gap: 25px;
+      }
+  
+      .footer-bottom {
+        flex-direction: column;
+      }
+    }
+  
+    @media only screen and (max-width: 426px) {
+      .footer {
+        padding: 24px 16px;
+      }
+  
+      .footer .footer-top {
+        gap: 0px;
+      }
+  
+      .footer-heading {
+        font-size: 16px;
+        line-height: 19.2px;
+      }
+  
+      .left-section .left-sec-hide-p {
+        display: none;
+      }
+  
+      .left-section .left-sec-show-p {
+        display: block;
+        font-size: 14px;
+        line-height: 20px;
+      }
+  
+      .footer-top .left-section {
+        gap: 8px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #e5e5e5;
+      }
+  
+      .subscribe-form {
+        margin-top: 8px;
+      }
+  
+      .subscribe-form form {
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+      }
+  
+      .subscribe-form input {
+        width: 226px;
+        height: 47px;
+      }
+  
+      .subscribe-form button {
+        padding: 15px 19px;
+      }
+  
+      .footer-top .right-section {
+        padding-top: 24px;
+      }
+  
+      .call-us {
+        display: block;
+      }
+  
+      .contact-hide {
+        display: none;
+      }
+  
+      .contact-details > img {
+        display: block;
+      }
+  
+      .contact-details {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-direction: row;
+      }
+  
+      .left-section p,
+      .contact-section p {
+        font-size: 14px;
+        line-height: 16.8px;
+      }
+  
+      .footer-top .right-section {
+        gap: 0;
+      }
+  
+      .right-section .contact-section {
+        padding-bottom: 24px;
+        border-bottom: 1px solid #e5e5e5;
+      }
+  
+      .right-section .currency-section {
+        padding-top: 24px;
+      }
+  
+      .currency-section p {
+        display: none;
+      }
+  
+      .hide-bottom-header {
+        display: none;
+      }
+  
+      .accordion-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+      .footer-heading {
+        font-size: 16px;
+        line-height: 19.2px;
+        font-weight: 700;
+      }
+  
+      .footer-heading.lowercase {
+        text-transform: lowercase;
+      }
+  
+      .footer-bottom {
+        margin-top: 2px;
+        gap: 0;
+        margin-bottom: 24px;
+      }
+  
+      .accordion-heading {
+        cursor: pointer;
+        padding-bottom: 24px;
+        padding-top: 24px;
+      }
+  
+      .accordian-content {
+        display: none;
+      }
+  
+      .accordian-content.open {
+        display: block;
+        padding-bottom: 24px;
+      }
+  
+      .footer-bottom .bottom-left {
+          border-bottom: 1px solid #E5E5E5;
+          gap: 0;
+      }
+  
+      .footer-bottom .bottom-center {
+          border-bottom: 1px solid #E5E5E5;
+          gap: 0;
+      }
+  
+      .footer-bottom .follow-section {
+          border-bottom: 1px solid #E5E5E5;
+          gap: 0;
+          margin-bottom: 24px;
+      }
+  
+      .hide-m {
+          display: none;
+      }
+  
+      .accepted-payment-sec .payment-icon {
+          justify-content: center;
+      }
+  
+      .payment-icon img {
+        width: 49px;
+        height: 30px;
+      }
+    }
+  }

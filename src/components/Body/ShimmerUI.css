@@ -1,0 +1,57 @@
+.shimmer-item {
+    height: 225px;
+    align-items: flex-start !important;
+}
+
+.shimmer-img {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(90deg, #fff, #d3d3d3, #fff) 0 0 / 200% 100%;
+    animation: 3s linear infinite shimmer;
+}
+
+@keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+}
+
+.shimmer-title {
+    width: 225px;
+    height: 50px;
+    background: linear-gradient(90deg, #fff, #d3d3d3, #fff) 0 0 / 200% 100%;
+    animation: 3s linear infinite shimmer;
+}
+
+.shimmer-price {
+    width: 100px;
+    height: 20px;
+    background: linear-gradient(90deg, #fff, #d3d3d3, #fff) 0 0 / 200% 100%;
+    animation: 3s linear infinite shimmer;
+}
+
+/*---------------RESPONSIVE---------------------*/
+@media only screen and (max-width: 731px) {
+    .shimmer-title {
+        width: 150px;
+        height: 30px;
+    }
+
+    .shimmer-price {
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .shimmer-title {
+        width: 130px;
+        height: 30px;
+    }
+
+    .shimmer-price {
+        width: 80px;
+    }
+}
