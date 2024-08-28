@@ -23,7 +23,7 @@ const Topnavfilter = ({ sideFilterValue, setShowSideFilter, sortProducts }) => {
     <div>
       <div className="top-filter-bar">
         <div className="left-filter-bar">
-          <p className="item-count">20 ITEMS</p>
+          <p className="item-count">3425 ITEMS</p>
           <div className="show-hide-filter">
             {sideFilterValue === true ? (
               <>
